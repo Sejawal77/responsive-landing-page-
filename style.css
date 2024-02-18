@@ -1,0 +1,82 @@
+.mid-navbar {
+  display: flex;
+  font-size: 12px;
+}
+.navbar-container {
+  max-width: 1200px;
+  width: 80%;
+  padding-left: 0px;
+  padding-right: 0px;
+  position: relative;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+input {
+  width: 70%;
+}
+.logo {
+  display: flex;
+  gap: 4px;
+  width: 20%;
+  position: relative;
+  top: -10px;
+}
+.logo h4 {
+  color: #f17228;
+
+  font-weight: 700;
+}
+.my-icons {
+  display: flex;
+  align-items: baseline;
+  margin-top: -16px;
+}
+i {
+  color: #ffae00;
+  font-size: 20px;
+  margin-left: 5px;
+}
+.font {
+  font-size: 18px;
+}
+input {
+  margin-top: 8px;
+  border: 0.5px solid grey;
+  border-radius: 3px;
+  height: 40px;
+}
+
+button {
+  padding: 4px 9px;
+  border-radius: 8px;
+  margin-left: 8px;
+
+  height: 38px;
+}
+.row-color {
+  background-color: #ffae00;
+  display: flex;
+}
+.space {
+  margin-top: 15px;
+}
+.make {
+  display: flex !important;
+  margin-top: 12px;
+}
+@media only screen and (max-width: 1000px) {
+  .hide-it {
+    display: none;
+  }
+  .logo {
+    width: 99%;
+    justify-content: center;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .container {
+    width: 112%;
+  }
+}
